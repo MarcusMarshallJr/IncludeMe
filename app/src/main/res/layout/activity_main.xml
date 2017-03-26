@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.example.hp_pc.tinderswipe.MainActivity"
+    android:background="@drawable/main_background2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/logo" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="START"
+            android:textSize="30sp"
+            android:textColor="@drawable/button_text_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            android:background="@drawable/button_border_style1_active"/>
+
+        <Button
+            android:id="@+id/profile_button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:text="MY PROFILE"
+            android:textSize="25sp"
+            android:textColor="@drawable/button_text_color"
+            android:layout_below="@+id/start_button"
+            android:layout_alignLeft="@+id/start_button"
+            android:layout_alignStart="@+id/start_button"
+            android:layout_marginTop="16dp"
+            android:padding="5dp"
+            android:background="@drawable/button_border_style1_active"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

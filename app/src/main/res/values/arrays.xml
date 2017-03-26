@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names_list">
+        <item>Walter White</item>
+        <item>Jar Jar Binks</item>
+        <item>Lizzie Pam</item>
+        <item>Grant Mathis</item>
+        <item>Velma Dinkley</item>
+    </string-array>
+
+    <integer-array name="images">
+        <item>@drawable/drawable1</item>
+        <item>@drawable/drawable2</item>
+        <item>@drawable/drawable4</item>
+        <item>@drawable/drawable6</item>
+        <item>@drawable/drawable5</item>
+    </integer-array>
+
+    <string-array name="category">
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Android App Dev</item>
+        <item>iOS App Dev</item>
+        <item>Data Visualization</item>
+    </string-array>
+
+
+</resources>
